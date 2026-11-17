@@ -1,0 +1,12 @@
+# Secrets: never commit
+.env
+*.env
+*.pem
+*_ed25519
+*.key
+.aws/
+
+# Junk
+.venv/
+node_modules/
+__pycache__/
